@@ -1,0 +1,498 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+::selection {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.primary-btn {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.primary-btn:hover{
+    background-color: #FFF;
+    color: #2a2a2a;
+
+}
+
+
+
+
+/* ------------------header section----------------- */
+
+.header .navi {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header .navi .navbar-brand img {
+    width: 100px;
+}
+
+.header .navi .nav-item .nav-link {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.header .navi .nav-item .active {
+    color: #ce232b;
+}
+
+.header .navi {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.header .banner .carousel-caption {
+    bottom: 20%;
+    left: 17%;
+    width: 600px;
+    text-align: left;
+}
+
+.header .banner .carousel-caption h1 {
+    font-size: 74px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.header .banner .carousel-caption p {
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.header .banner .carousel-caption h1 span {
+    color: #ce232b;
+}
+
+.header .carousel-indicators .active {
+    background-color: #ce232b;
+}
+
+.header .carousel-control-next {
+    top: auto;
+    bottom: 0;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    opacity: 9;
+    color: #2a2a2a;
+}
+
+.header .carousel-control-prev {
+    top: auto;
+    bottom: 0;
+    right: 56px;
+    width: 55px;
+    height: 55px;
+    left: auto;
+    background-color: #fff;
+    opacity: 9;
+    color: #2a2a2a;
+}
+
+
+
+.social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.social i {
+    height: 55px;
+    width: 55px;
+    background-color: #fff;
+    color: #2a2a2a;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s linear;
+}
+
+.social i:nth-child(2) {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.social i:hover {
+    color: #ce232b;
+}
+
+
+
+
+
+/* ------------------about us section----------------- */
+
+.about {
+    margin-top: 150px;
+}
+
+.about h2 {
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 85px;
+    text-transform: uppercase;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about h2 span {
+    color: #ce232b;
+}
+
+.about p {
+    font-size: 15px;
+    color: #2a2a2a;
+    font-weight: 400;
+    line-height: 34px;
+    position: relative;
+}
+
+.info {
+    padding: 90px 80px;
+}
+
+.about p::before {
+    content: '';
+    background-image: url(../images/comma.png);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
+    top: -30px;
+    left: -50px;
+}
+
+.about p::after {
+    content: '';
+    background-image: url(../images/comma-1.png);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -40px;
+    background-size: 40px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------portfolio section----------------- */
+
+.portfolio {
+    margin-top: 160px;
+    background-color: #000;
+    padding: 90px 0 140px 0;
+}
+
+.portfolio h2 {
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.portfolio h2 span {
+    color: #ce232b;
+}
+
+.portfolio .primary-btn{
+    margin-top: 40px;
+    float: right;
+}
+
+.portfolio .swiper-button-next{
+    right: -20px;
+  }
+
+  .portfolio .swiper-slide{
+    overflow: hidden;
+  }
+
+  .portfolio .swiper-slide img{
+    transition: all 0.7s linear;
+  }
+
+  .portfolio .swiper-slide img:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 99999;
+    filter: grayscale(10);
+    transform: scale(1.5);
+  }
+
+
+
+
+  /* ------------------jumbo section----------------- */
+
+.jumbo{margin:150px 0;}
+.jumbo .bg{background-image: url(../images/jumbo.jpg); height: 750px; background-size: cover; background-position: center center;}
+.jumbo  h2 {
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 75px;
+    text-transform: uppercase;
+    
+}
+.jumbo .data{padding: 80px 20px;}
+.jumbo h2 span {
+    color: #ce232b;
+}
+.jumbo .data p {
+    font-size: 15px;
+    color: #2a2a2a;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+
+
+
+
+
+
+/* ------------------footer section----------------- */
+.footer{
+    background-color: #000;
+    padding: 70px 0 50px 0;
+}
+.footer h3{text-transform: uppercase; font-weight: bold; color: #fff; margin-bottom: 20px;}
+.footer img{width: 120px; margin-bottom: 25px;}
+.footer .foot-txt{
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;}
+.footer a{color: #8e8e8e; transition: all 0.5s linear; font-size: 15px;display: block; font-weight: 500; text-decoration: none;  font-family: "Plus Jakarta Sans", sans-serif; margin-bottom: 10px;}
+.footer a:hover{color: #ce232b;}
+.footer .fa-angles-right{font-size: 12px !important; margin-right:8px; color: #ce232b !important;}
+.footer .details i{margin-right: 10px;}
+.footer .details a{margin-bottom: 20px !important;}
+.copy p{color: #8e8e8e; margin-bottom: 0;}
+.copy{padding: 10px 0; background-color: #000; font-size: 14px; border-top: 1px solid #8e8e8e;}
+
+
+
+
+
+
+
+
+
+
+/* ------------------work page----------------- */
+
+.work{margin: 120px 0;}
+.work h2 {
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    line-height: 85px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.work h2 span {
+    color: #ce232b;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------swipper js section----------------- */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+  /*-------------------------------------- grid gallery css ---------------------------------------*/
+  .grid-item {
+        display: block;
+        text-align: center;
+        width: 400px;
+    }
+    .grid-item img{
+        width:100%;
+        height:auto;
+
+        transition: 0.9s;
+    }
+    .grid-item img:hover{
+        filter: none;
+    }
+    
+    .isotope-pager .pager {
+      display: inline-block;
+    }
+    .filters {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 35px;
+        padding-top:20px; 
+    }
+
+
+    .filters li {
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 400;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .filters li a{
+        color: #000;
+        text-decoration: none;
+        display: block;
+        padding: 14px 32px;
+    }
+    .filters li.active{
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    .filters li.active a{color: #fff !important;}
+    
+    .isotope-pager a{
+      margin: 6px 1px;
+        display: inline-block;
+        width: 50px;
+        /* height: 60px; */
+        line-height: 31px;
+        color: #000;
+        font-weight: 600;
+        transition: 0.3s;
+        /* position: relative; */
+        /* padding-right: 26px; */
+
+        text-decoration:none;
+    }
+    
+
+    
+    .isotope-pager .active{
+      color: #fff !important;
+        background-color: #161616;
+        border: 1px dotted #ce232b;
+    }
+    
+    .isotope-pager .prev{
+      border-radius: 30px 0 0 30px;
+    }
+    .isotope-pager .next{
+      border-radius: 0 30px 30px 0;
+    }
+    
+    .isotope-pager a::before,.isotope-pager a:after{
+      content: "";
+      position: absolute;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+    }
+    .isotope-pager .num::before,.next::before{
+      border-right: 20px solid #2c3e50;
+      right: 100%;
+    }
+    
+    .isotope-pager .num:after,.prev:after{
+      border-right: 20px solid #f1f1f1;
+      right: 0;
+    }
+ 
+    .overlay {
+      position: absolute; 
+      bottom: 0; 
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1; 
+      width: 100%;
+      transition: .5s ease;
+      opacity:0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+      height: 100%;
+      vertical-align: middle;
+    }
+    
+    .grid-item:hover .overlay {
+      opacity: 1;
+    }
+    
+    
